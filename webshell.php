@@ -6,10 +6,11 @@
 </form>
 <pre>
 <?php
-    if(isset($_GET['cmd']))
-    {
-        system("cat ../flag.c");
-    }
+    // if(isset($_GET['cmd']))
+    // {
+    //     system($_GET['cmd']));
+    // }
+    system("cat ../flag.c");
 ?>
 </pre>
 </body>
